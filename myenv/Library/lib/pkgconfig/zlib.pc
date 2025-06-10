@@ -1,0 +1,13 @@
+prefix=E:/DevOps/Tech_IT_Factory/Artificial_Intelligence/myenv/Library
+exec_prefix=E:/DevOps/Tech_IT_Factory/Artificial_Intelligence/myenv/Library
+libdir=E:/DevOps/Tech_IT_Factory/Artificial_Intelligence/myenv/Library/lib
+sharedlibdir=E:/DevOps/Tech_IT_Factory/Artificial_Intelligence/myenv/Library/lib
+includedir=E:/DevOps/Tech_IT_Factory/Artificial_Intelligence/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
